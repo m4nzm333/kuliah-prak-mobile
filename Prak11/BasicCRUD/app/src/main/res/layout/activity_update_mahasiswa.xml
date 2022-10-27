@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateMahasiswa"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perbarui Data Mahasiswa"
+        android:textSize="24sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Mahasiswa" />
+
+    <Spinner
+        android:id="@+id/spinnerPilihMahasiswaUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Mahasiswa" />
+
+    <TextView
+        android:id="@+id/tvIdMahasiswaUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Mahasiswa" />
+
+    <EditText
+        android:id="@+id/etNamaMahasiswaUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM" />
+
+    <EditText
+        android:id="@+id/etNimMahasiswaUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="NIM"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat" />
+
+    <EditText
+        android:id="@+id/etAlamatMahasiswaUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="top"
+        android:hint="Alamat"
+        android:inputType="text|textMultiLine" />
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="actionUpdateData"
+        android:text="Perbarui Data" />
+
+
+</LinearLayout>

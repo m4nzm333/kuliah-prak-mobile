@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Belajar Operasi Aritmatika</string>
+
+    <string name="app_titleku">Belajar Aritmatika</string>
+    <string name="btnlabelPenjumalahan">Penjumlahan</string>
+    <string name="btnlabelPengurangan">Pengurangan</string>
+
+    <string name="btnlabelback">Kembali Ke Menu</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteMahasiswa"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hapus Data Mahasiswa"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Mahasiswa" />
+
+    <Spinner
+        android:id="@+id/spinnerPilihMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Mahasiswa" />
+
+    <TextView
+        android:id="@+id/tvIDMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM" />
+
+    <TextView
+        android:id="@+id/tvNimMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nim"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat Mahasiswa" />
+
+    <TextView
+        android:id="@+id/tvAlamatMahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnDeleteData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="actionHapusData"
+        android:text="Hapus Data" />
+
+
+</LinearLayout>

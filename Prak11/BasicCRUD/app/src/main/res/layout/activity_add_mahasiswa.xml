@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMahasiswa"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Mahasiswa"/>
+    <EditText
+        android:id="@+id/inputNama"
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM Mahasiswa" />
+    <EditText
+        android:id="@+id/inputNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM"
+        android:inputType="number" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat Mahasiswa"/>
+    <EditText
+        android:id="@+id/inputAlamat"
+        android:layout_width="match_parent"
+        android:hint="Alamat"
+        android:layout_height="150dp"
+        android:inputType="text|textMultiLine"
+        android:gravity="top" />
+    <Button
+        android:id="@+id/BtnTambahData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambahkan Data"/>
+
+
+
+</LinearLayout>

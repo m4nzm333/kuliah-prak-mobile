@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">9 Irman Cafe</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="label_deserts">Droid Deserts</string>
+    <string name="sub_label_desert">Choose a dessert.</string>
+
+    <string name="donut_desc">Donuts are glazed and sprinkled with candy.</string>
+    <string name="icecream_desc">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="froyo_desc">FroYo premium self-serve frozen yogurt.</string>
+
+    <string name="deliverly_method_label">Choose a delivery method :</string>
+    <string name="order1">Same day messenger service</string>
+    <string name="order2">Next day ground delivery</string>
+    <string name="order3">Pickup</string>
+    <string name="title_activity_order">OrderActivity</string>
+
+    <string name="action_order_message">You selected Order.</string>
+    <string name="action_status_message">You selected Status.</string>
+    <string name="action_favorites_message">You selected Favorites.</string>
+    <string name="action_contact_message">You selected Contact.</string>
+
+</resources>
